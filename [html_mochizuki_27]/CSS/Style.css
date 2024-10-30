@@ -1,0 +1,377 @@
+
+.wrap {
+    font-size: 16px;
+    width: 1200px;
+    text-align: center;/*text や 画像中央揃え*/
+    margin: 0 auto;
+}
+
+.academy {
+    font-size: 20px;
+}
+
+.omoi {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.title-course {
+    font-size: 24px;
+    margin-bottom:30px;
+}
+
+.course-memo {
+    margin-bottom: 60px;
+}
+
+.header-list {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+}
+
+.anim-box, .more, .send {
+    animation: poyoyon3 2.5s infinite;
+    opacity: 1;
+    
+}
+
+@keyframes poyoyon3 {
+
+    0%,
+    40% {
+        transform: skew(0deg, 0deg);
+    }
+
+    5% {
+        transform: skew(5deg, 5deg);
+    }
+
+    10% {
+        transform: skew(-4deg, -4deg);
+    }
+
+    15% {
+        transform: skew(3deg, 3deg);
+    }
+
+    20% {
+        transform: skew(-2deg, -2deg);
+    }
+
+    25% {
+        transform: skew(1deg, 1deg);
+    }
+
+    30% {
+        transform: skew(-0.6deg, -0.6deg);
+    }
+
+    35% {
+        transform: skew(0.3deg, 0.3deg);
+    }
+}
+
+.btn--orange,
+a.btn--orange {
+    color: #fff;
+    background-color: #00040a;
+    padding: 10%
+    
+}
+
+.btn--orange:hover,
+a.btn--orange:hover {
+    color: #fff;
+    background: #852ae6;
+    padding: 10%
+}
+
+a.btn--radius {
+    border-radius: 100vh;
+}
+
+.header-list ul {
+text-decoration: none; /* 下線を消すには？ */
+display: flex;    
+}
+
+li {
+    font-size: 15px;
+    list-style: none;
+    margin: 50px; /* 縦横50のマージン */
+}
+
+/* Cheese Academyだけ、脚色 */
+
+.kasaneru {
+    position: relative;
+}
+
+.kasaneru-visual {
+    width: 1200px
+     
+}
+
+.kasaneru h1 {
+    width: 1200px;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color:white;
+}
+
+.kasaneru h2 {
+    width: 1200px;
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color:black;
+}
+    
+h1,h2,p {
+    font-size: 20px;   
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about {
+    margin-top: 60px;
+    color:red;
+    font-size: 24px;
+}
+
+.about-visual {
+    width: 1200px
+}
+
+.course {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.course-1, .course-2, .course-3 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 16px;
+    /* 文字ボックスのサイズ指定 */
+}
+
+.text {
+    margin-top: 60px;
+    width: 40%;
+    height: auto;
+}
+
+/* 冒頭文太字が反映されない↓ */
+.high-light {
+    font-weight: bold;
+}
+
+ .image-box {
+     width: 50%;
+     height: auto;
+ }
+
+ .news {
+     font-size: 28px;
+     color: orange
+ }
+
+.image-box2 {
+    display: flex;
+    margin-left: 100px;
+}
+
+.kosuge p{
+    font-size: 12px;
+    width: 300px;
+    margin-left: 40px;
+    /* margin-right: 50px;  */
+    text-align: left;
+}
+
+.News ul {
+    display: flex;
+} 
+
+.news-1 {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+
+
+.item img {
+    /* display: block; */
+    width: 200 px;
+    text-align: left;
+    
+    margin: 10px 40px;
+}
+
+/* ACCESS */
+
+/* 中央に揃える */
+.more p {      
+    padding-top: 20px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: orange;    
+    font-weight: bold;
+    
+}
+.menu {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.access-1 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.contact-2 {
+    padding-bottom: 70px;
+}
+
+
+form {
+    
+}
+
+dl {
+    display: flex;
+}
+
+.contact {
+    margin-left: 15%;
+    
+}
+
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* label {
+    display: inline-block;
+    min-width: 90px;    */
+}
+
+.contact dt {
+    border-top: 2px dotted #bfbfbf;
+    padding-top: 20px;
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    margin-right: 10px;
+    background-color: black;
+    
+}
+.contact dl {
+    border-top: 2px dotted #bfbfbf;
+        padding-top: 20px;
+}
+
+.name-1, .name-2, .email, .select {
+    padding-right: 150px;
+    margin: 0;
+    
+    /* padding-bottom: 35px; */
+    
+}
+
+.email {
+    padding-right: 70px;
+    padding-bottom: 25px;
+    
+}
+
+.select {
+    padding-right: 10px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.select-box {
+    padding-right: 110px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+input {
+    font: 1em sans-serif;
+    /* フォームフィールド境界に合わせる */
+    box-sizing:border-box 
+    /* text-align: center; */  
+}
+
+.select-box {
+    width: 500px;
+    height: 30px;
+}
+
+.checkbox-label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;   
+}
+
+.select {
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+.check {
+    margin-top: 0;
+    padding-right: 110px;
+    padding-bottom: 25px;
+}
+
+.detail {
+    margin-top: 0;
+    padding-right: 140px;
+    padding-bottom: 45px;
+}
+
+.detail-box {
+    height: 30px;
+}
+
+.send p {
+    margin-left: 500px;
+    padding-top: 10px;
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+}
+
+.footer p{
+    margin-top:140px;
+    padding: 30px;
+    background-color: grey;
+    color: white;
+    height: 20px;
+}
+
+/* .footer p { */
+
+}
